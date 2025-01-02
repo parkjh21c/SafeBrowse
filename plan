@@ -13,7 +13,7 @@
     - 가짜 사이트 목록의 업데이트 기능.
 
 - **기술 스택 선정**  
-  - 확장 프로그램 개발 언어: HTML, CSS, JavaScript.
+  - 확장 프로그램 개발 언어: HTML, CSS, JavaScript, json
   - 데이터베이스(피싱 사이트 목록): Google Safe Browsing API 또는 오픈소스 피싱 사이트 데이터 활용.
 
 ---
