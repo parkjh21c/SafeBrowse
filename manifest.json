@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "SafeBrowse",
+    "version": "1.0",
+    "description": "Check your website connection.",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "images/logo.png"
+    }
+}
