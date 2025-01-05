@@ -3,8 +3,19 @@
     "name": "SafeBrowse",
     "version": "1.0",
     "description": "Check your website connection.",
+    "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "tabs",
+    "notifications"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
     "action": {
       "default_popup": "popup.html",
       "default_icon": "images/logo.png"
     }
+    
 }
