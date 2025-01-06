@@ -5,8 +5,7 @@
     "description": "Check your website connection.",
     "permissions": [
     "webRequest",
-    "webRequestBlocking",
-    "tabs",
+    "activeTab",
     "notifications"
   ],
   "host_permissions": ["<all_urls>"],
