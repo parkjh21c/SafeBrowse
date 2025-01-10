@@ -1,5 +1,7 @@
+import config from "./config/apikey.js";
+
 // SafeBrowsing API 키
-const API_KEY = "YOUR_API_KEY";
+const API_KEY = config.SafeBrosing_API_KEY;
 const SAFE_BROWSING_URL = "https://safebrowsing.googleapis.com/v4/threatMatches:find?key=" + API_KEY;
 
 // 웹 요청이 발생하기 전에 트리거
