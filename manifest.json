@@ -5,8 +5,12 @@
     "description": "Check your website connection.",
     "permissions": [
     "webRequest",
+<<<<<<< HEAD
     "declarativeNetRequest",
     "tabs",
+=======
+    "activeTab",
+>>>>>>> a4e4526dcdcf893e1964b4dd2fc24d4142fc9d82
     "notifications"
   ],
   "host_permissions": ["<all_urls>"],
