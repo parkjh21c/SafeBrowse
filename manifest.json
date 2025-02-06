@@ -5,7 +5,7 @@
     "description": "Check your website connection.",
     "permissions": [
     "webRequest",
-    "webRequestBlocking",
+    "declarativeNetRequest",
     "tabs",
     "notifications"
   ],
